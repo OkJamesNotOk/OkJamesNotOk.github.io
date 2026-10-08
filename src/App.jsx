@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="portfolio">
       <header className="navbar">
-        <h2>Kien</h2>
 
         <nav>
           <a href="#about">About</a>
@@ -401,7 +400,7 @@ function App() {
       </main>
 
       <footer>
-        <p>© 2026 Kien</p>
+        <p>© 2026 Phan Nang Kien</p>
       </footer>
     </div>
   );
