@@ -831,3 +831,12 @@ a:focus-visible {
     justify-content: center;
   }
 }
+
+/* Centre the last project when the total is odd */
+@media (min-width: 769px) {
+  .project-grid > .project-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    width: calc((100% - 20px) / 2);
+    justify-self: center;
+  }
+}
